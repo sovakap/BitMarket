@@ -1,0 +1,86 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(78, 109, 129);
+}
+
+header {
+    justify-content: space-between;
+    padding: 8px ;
+    margin-bottom: 20px;
+     background: rgb(129, 160, 172);
+}
+
+.button {
+    background-color: #aed1d6;
+    color: rgb(79, 98, 124);
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    display: flex;
+}
+
+nav {
+    border-top: 5px solid rgb(255, 255, 255);
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: rgb(109, 161, 185);
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(133, 177, 206);
+    font-size: 36px;
+    margin-top: ;
+    margin-bottom: 15px ;
+}
+
+p {
+    font-size: 24px;
+}
+
+.info {
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+article {
+    background-color: rgb(220, 228, 235);
+    padding: 15px;
+    width: 400px;
+    margin: 20px ;
+    
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: rgb(141, 193, 202);
+    color: rgb(89, 151, 170);
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+}
+
+footer {
+    background-color: rgb(148, 185, 209);
+    padding: 15px ;
+    display: flex;
+}
+
+footer a {
+    margin-right:16px ;
+}
+
+footer p {
+    font-size: 24px;
+}
